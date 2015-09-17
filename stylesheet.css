@@ -1,29 +1,24 @@
 body {
-  background-color: #695D69;
+  background-color: #F7F7F7;
+  font-family: 'Oswald', sans-serif;
+  text-align: center; 
 }
 
-h1 {
-  text-align: center; 
-  font-family: 'Oswald', sans-serif;
-  color: #FCF3EF;
-  left: 0;
-  line-height: 200px;
-  margin: auto;
-  margin-top: -100px;
-  position: absolute;
-  top: 50%;
-  width: 100%;
+.parallax-window {
+  min-height: 700px;
 }
 
-p {
-  text-align: center; 
-  font-family: 'Oswald', sans-serif;
-  color: #FCF3EF;
-  left: 0;
-  line-height: 200px;
-  margin: auto;
-  margin-top: -100px;
-  position: absolute;
-  top: 50%;
+/*JUMBOTRON*/
+
+/*this is the jumbotron picture*/
+#jumbo {
+  position: relative;
+  background-image: url(https://images.unsplash.com/photo-1441105501384-23156f198d37?q=80&fm=jpg&s=62c00ede8fd1a7591c0712a0c59095a4);
   width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  margin-bottom: -30;
 }
+
+
