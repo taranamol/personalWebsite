@@ -10,15 +10,36 @@ body {
 
 /*JUMBOTRON*/
 
-/*this is the jumbotron picture*/
 #jumbo {
   position: relative;
-  background-image: url(https://images.unsplash.com/photo-1441105501384-23156f198d37?q=80&fm=jpg&s=62c00ede8fd1a7591c0712a0c59095a4);
+  background-color: rgba(255, 255, 255, 0.5);
   width: 100%;
   height: 100%;
   background-size: cover;
   overflow: hidden;
   margin-bottom: -30;
+  padding-top: 300px;
+  padding-bottom: 300px;
 }
 
+/*ABOUT ME*/
 
+#page0 {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+/*PLACEMENT TEXT*/
+
+#page1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  margin-bottom: -30;
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+/*PROJECTS*/
