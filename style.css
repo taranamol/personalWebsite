@@ -32,6 +32,15 @@ body {
   margin-bottom: 0px;
 }
 
+
+.detailindex .jumbotron {
+  background-color: #3498DB; 
+  color: #ECF0F1;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  margin-bottom: 0px;
+}
+
 .orange {
   color: #E74C3C;
 }
@@ -63,7 +72,7 @@ body {
 
 
 .page-wrapper-gray {
-  background-color: #e5e5e5;
+  background-color: #f9f9f9;
 }
 
 #new-section-gray {
@@ -91,7 +100,7 @@ body {
 }
 
 #helloworld {
-  color: #2980B9;
+  color: #666666;
 }
 
 hr {
@@ -100,6 +109,28 @@ hr {
 
 p {
   font-size: 18px;
+}
+
+.casestudytext {
+  text-align: left;
+}
+
+.casestudytext .width-image {
+  text-align: center;
+}
+
+.casestudytext .width-image img {
+  max-width:100%;
+  max-height:100%;
+}
+
+.casestudytext .height-image img {
+  max-width:100%;
+  max-height:100%;
+}
+
+.casestudytext h3 {
+  color: #E74C3C;
 }
 
 
