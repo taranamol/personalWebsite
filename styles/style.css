@@ -22,6 +22,15 @@ a:hover {
   text-decoration: none;
 }
 
+.emphasizedtext {
+  font-weight: bold;
+  color: #002F2F;
+}
+
+.yellow {
+  color: #DEB216;
+}
+
 .orange {
   color: #E74C3C;
 }
@@ -109,6 +118,33 @@ a:hover {
   background-color: #f9f9f9;
 }
 
+/************** SKILLS PAGE ******************/
+
+/*doesn't go full page width*/
+#new-section-pattern {
+  color: #4c4c4c;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 990px;
+  margin: 0 auto;
+  width: 100%;
+/*  background-color: #ECF0F1
+*/}
+
+.page-wrapper-pattern {
+  background: url(../images/index/pattern.jpeg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#skillspage {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #ECF0F1;
+}
+
 
 /************** CASE STUDY TEXT ******************/
 .casestudytext {
@@ -117,6 +153,19 @@ a:hover {
 
 .casestudytext h3 {
   color: #E74C3C;
+}
+
+.casestudytext h4 {
+  color: #3498DB;
+  margin-top: 15px;
+}
+
+.casestudytext p {
+  font-size: 16px;
+}
+
+.casestudytext li {
+  font-size: 16px;
 }
 
 .casestudytext .width-image {
@@ -136,7 +185,7 @@ a:hover {
 
 /**************  MAIN INDEX ******************/
 #helloworld {
-  background: url(maps.jpeg) no-repeat center center fixed; 
+  background: url(../maps.jpeg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -161,6 +210,57 @@ a:hover {
 .skillsicon img {
   width: 100px;
   padding-bottom: 20px;
+}
+
+div.latestcasestudy {
+  background: url(../images/designer/mts/alejandra_closed_sort.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+div.latestwriting {
+  background: url(../images/writer/blogsfac.jpg) repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+div.transbox {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: 30px;
+  background-color: #ffffff;
+  opacity: 0.8;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox h3 {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+div.transbox button {
+  padding: 15px 30px 15px 30px;
+  background-color: #ECF0F1;
+  border: 3px solid #E74C3C;
+  font-size: 18px;
+  font-weight: bold;
+  color: #E74C3C;
+  min-width: 250px;
+}
+
+div.transbox button:hover {
+  background-color: #E74C3C;
+  border: 3px solid #E74C3C;
+  color: #ECF0F1;
 }
 
 
