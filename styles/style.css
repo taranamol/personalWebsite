@@ -1,106 +1,8 @@
+/************** OVERALL CSS ******************/
 body {
   background-color: #ECF0F1;
   font-family: 'Gudea', sans-serif;
   text-align: center; 
-}
-
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
-  color: #E74C3C;
-}
-
-.navbar-inverse {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: #ECF0F1;
-}
-
-/*.jumbotron {
-  padding-bottom: 0px !important;
-}*/
-
-.mainindex .jumbotron {
-  color: #ECF0F1;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-}
-
-.otherindex .jumbotron {
-  background-color: #2C3E50; 
-  color: #ECF0F1;
-  padding-top: 150px;
-  padding-bottom: 100px;
-  margin-bottom: 0px;
-}
-
-
-.detailindex .jumbotron {
-  background-color: #3498DB; 
-  color: #ECF0F1;
-  padding-top: 150px;
-  padding-bottom: 100px;
-  margin-bottom: 0px;
-}
-
-.orange {
-  color: #E74C3C;
-}
-
-/*doesn't go full page width*/
-.page-wrapper {
-  background-color: #ECF0F1;
-}
-
-/*new section on each page*/
-#new-section {
-  color: #4c4c4c;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  max-width: 990px;
-  margin: 0 auto;
-  width: 100%;
-}
-
-.tomiddle {
-  padding: 10px 10px 10px 10px;
-  background-color: rgba(255,255,255,0.7);
-  border-radius: 20px;
-  max-width: 990px;
-  margin: 0 auto;
-  width: 100%;
-
-}
-
-
-.page-wrapper-gray {
-  background-color: #f9f9f9;
-}
-
-#new-section-gray {
-  color: #4c4c4c;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  max-width: 990px;
-  margin: 0 auto;
-  width: 100%;
-}
-
-.font-150 {
-  font-size: 150px;
-}
-
-#helloworld {
-  background:url(images/index/maps.jpeg) no-repeat center center fixed; ;
-/*  background: url(images/bg.jpg) 
-*/  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-
-#helloworld {
-  color: #666666;
 }
 
 hr {
@@ -111,8 +13,110 @@ p {
   font-size: 18px;
 }
 
+a {
+  color: #E74C3C;
+}
+
+a:hover {
+  color: #2980B9;
+  text-decoration: none;
+}
+
+.orange {
+  color: #E74C3C;
+}
+
+.font-150 {
+  font-size: 150px;
+}
+
+.pb50 {
+  padding-bottom: 50px;
+}
+
+
+/************** NAVBAR ******************/
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+  color: #E74C3C;
+}
+
+.navbar-inverse {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ECF0F1;
+}
+
+
+/************** JUMBOTRON HEADER ******************/
+.mainindex .jumbotron {
+  color: #ECF0F1;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.devindex .jumbotron {
+  background-color: #3498DB; 
+  color: #ECF0F1;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  margin-bottom: 0px;
+}
+
+.designindex .jumbotron {
+  background-color: #E74C3C; 
+  color: #ECF0F1;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  margin-bottom: 0px;
+}
+
+.detailindex .jumbotron {
+  background-color: #2C3E50; 
+  color: #ECF0F1;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  margin-bottom: 0px;
+}
+
+
+/************** PAGE WRAPPER ******************/
+
+/*doesn't go full page width*/
+#new-section {
+  color: #4c4c4c;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 990px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.page-wrapper {
+  background-color: #ECF0F1;
+}
+
+/*doesn't go full page width*/
+#new-section-gray {
+  color: #4c4c4c;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 990px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.page-wrapper-gray {
+  background-color: #f9f9f9;
+}
+
+
+/************** CASE STUDY TEXT ******************/
 .casestudytext {
   text-align: left;
+}
+
+.casestudytext h3 {
+  color: #E74C3C;
 }
 
 .casestudytext .width-image {
@@ -129,33 +133,52 @@ p {
   max-height:100%;
 }
 
-.casestudytext h3 {
-  color: #E74C3C;
+
+/**************  MAIN INDEX ******************/
+#helloworld {
+  background: url(maps.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
-
-/*SKILLS*/
-#skillspage {
-
+#helloworld {
+  color: #666666;
 }
 
-.iconimage img {
+.tomiddle {
+  padding: 10px 10px 10px 10px;
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 20px;
+  max-width: 990px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.skillsicon img {
   width: 100px;
   padding-bottom: 20px;
 }
 
 
-/*ABOUT ME*/
-#aboutmepage {}
-
-
-/*PROJECTS*/
+/************** DEVELOPER INDEX | PROJECTS ******************/
 #projectspage > div > div > img {
   width: 100%;
   height: auto;
   padding-bottom: 50px;
 }
 
+#smartzip {
+  border-bottom: 2px solid #777777;
+  margin-bottom: 50px;
+}
+
+
+
+/************** DESIGNER INDEX | PROJECTS ******************/
 #report > img {
   width: 50%;
   height: auto;
@@ -168,42 +191,14 @@ p {
   padding-bottom: 50px;
 }
 
-a {
-  color: #2980B9;
-}
 
-a:hover {
-  color: #E74C3C;
-  text-decoration: none;
-}
-
-#granth > img:hover { 
-  opacity: 0.5;
-}
-
-
-
-
-/*EDUCATION*/
-
-#page4 {
-  background-color: rgba(81, 84, 84, 0.3);
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-/*CONTACT*/
-
+/************** CONTACT PAGE ******************/
 #contactpage  > a > img {
   width: 5%;
   height: auto;
   padding-bottom: 50px;
 }
 
-/*#contactpage > div.col-sm-12 > a > img {
-  width: 8%;
-  height: auto;
-}*/
 
 
 
