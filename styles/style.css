@@ -89,7 +89,7 @@ body {
 }
 
 #helloworld {
-  background:url(maps.jpeg) no-repeat center center fixed; ;
+  background:url(images/index/maps.jpeg) no-repeat center center fixed; ;
 /*  background: url(images/bg.jpg) 
 */  -webkit-background-size: cover;
   -moz-background-size: cover;
