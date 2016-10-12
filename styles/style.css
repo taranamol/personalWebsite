@@ -118,6 +118,21 @@ a:hover {
   background-color: #f9f9f9;
 }
 
+/*doesn't go full page width*/
+#new-section-white {
+  color: #4c4c4c;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 990px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.page-wrapper-white {
+  background-color: #ffffff;
+}
+
+
 /************** SKILLS PAGE ******************/
 
 /*doesn't go full page width*/
@@ -128,8 +143,7 @@ a:hover {
   max-width: 990px;
   margin: 0 auto;
   width: 100%;
-/*  background-color: #ECF0F1
-*/}
+}
 
 .page-wrapper-pattern {
   background: url(../images/index/pattern.jpeg) no-repeat center center; 
@@ -162,6 +176,7 @@ a:hover {
 
 .casestudytext p {
   font-size: 16px;
+  color: #333333;
 }
 
 .casestudytext li {
@@ -212,6 +227,85 @@ a:hover {
   padding-bottom: 20px;
 }
 
+
+/************** DEVELOPER INDEX | PROJECTS ******************/
+#projectspage > div > div > img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+#smartzip {
+  border-bottom: 2px solid #777777;
+  margin-bottom: 50px;
+}
+
+
+
+/************** DESIGNER INDEX | PROJECTS ******************/
+#report > img {
+  width: 50%;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+#mts  > img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+
+/************** CONTACT PAGE ******************/
+#contactpage  > a > img {
+  width: 5%;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+
+/************** TEXT BOX ON PICTURE  ******************/
+#blogdiv {
+   width: auto; 
+   height: 300px;
+}
+
+#blogdiv img {
+   height: 100%;
+   width: 100%;
+}
+
+.overlayblogtext {
+  margin: 0 auto;
+  padding: 15px;
+  max-width: 400px;
+  bottom: 70px;
+  z-index: 1;
+  background: #ffffff;
+  position: relative;
+}
+
+.overlayblogtext button {
+  padding: 5px 10px 5px 10px;
+  background-color: transparent;
+  border: 1px solid #E74C3C;
+  font-size: 18px;
+  color: #E74C3C;
+  min-width: 100px;
+}
+
+.overlayblogtext button:hover {
+  background-color: #E74C3C;
+  border: 3px solid #E74C3C;
+  color: #ffffff;
+}
+
+.overlayblogtext button:hover a {
+  color: #ffffff;
+}
+
+
+/************** NOT USED CSS | OVERLAY ******************/
 div.latestcasestudy {
   background: url(../images/designer/mts/alejandra_closed_sort.jpg) no-repeat center center; 
   -webkit-background-size: cover;
@@ -261,83 +355,6 @@ div.transbox button:hover {
   border: 3px solid #E74C3C;
   color: #ECF0F1;
 }
-
-
-/************** DEVELOPER INDEX | PROJECTS ******************/
-#projectspage > div > div > img {
-  width: 100%;
-  height: auto;
-  padding-bottom: 50px;
-}
-
-#smartzip {
-  border-bottom: 2px solid #777777;
-  margin-bottom: 50px;
-}
-
-
-
-/************** DESIGNER INDEX | PROJECTS ******************/
-#report > img {
-  width: 50%;
-  height: auto;
-  padding-bottom: 50px;
-}
-
-#mts  > img {
-  width: 100%;
-  height: auto;
-  padding-bottom: 50px;
-}
-
-
-/************** CONTACT PAGE ******************/
-#contactpage  > a > img {
-  width: 5%;
-  height: auto;
-  padding-bottom: 50px;
-}
-
-/************** WRITER PAGE ******************/
-#blogdiv {
-   width: auto; 
-   height: 300px;
-}
-
-#blogdiv img {
-   height: 100%;
-   width: 100%;
-}
-
-.overlayblogtext {
-  margin: 0 auto;
-  padding: 15px;
-  max-width: 400px;
-  bottom: 70px;
-  z-index: 1;
-  background: #ffffff;
-  position: relative;
-}
-
-.overlayblogtext button {
-  padding: 5px 10px 5px 10px;
-  background-color: transparent;
-  border: 1px solid #E74C3C;
-  font-size: 18px;
-  color: #E74C3C;
-  min-width: 100px;
-}
-
-.overlayblogtext button:hover {
-  background-color: #E74C3C;
-  border: 3px solid #E74C3C;
-  color: #ffffff;
-}
-
-.overlayblogtext button:hover a {
-  color: #ffffff;
-}
-
 
 
 
