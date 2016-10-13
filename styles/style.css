@@ -49,6 +49,11 @@ a:hover {
   color: #E74C3C;
 }
 
+.navbar-default {
+  background-color: #ffffff;
+  border: none;
+}
+
 .navbar-inverse {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -58,7 +63,7 @@ a:hover {
 
 /************** JUMBOTRON HEADER ******************/
 .mainindex .jumbotron {
-  color: #ECF0F1;
+  background-color: #ffffff;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
@@ -200,17 +205,27 @@ a:hover {
 
 /**************  MAIN INDEX ******************/
 #helloworld {
-  background: url(../maps.jpeg) no-repeat center center fixed; 
+/*  background: url(../maps.jpeg) no-repeat center center fixed; 
+*/ 
+  background-color: #ffffff
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  text-align: left;
+  color: #333333;
 }
 
-#helloworld {
-  color: #666666;
+#helloworld .header {
+  font-size: 48px;
+  letter-spacing: 10px;
+}
+
+#helloworld .description {
+  max-width: 700px;
+  color: #616161;
 }
 
 .tomiddle {
@@ -257,7 +272,7 @@ a:hover {
 
 
 /************** CONTACT PAGE ******************/
-#contactpage  > a > img {
+#contactpage  > a  {
   width: 5%;
   height: auto;
   padding-bottom: 50px;
