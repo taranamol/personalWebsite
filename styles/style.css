@@ -1,6 +1,6 @@
 /************** OVERALL CSS ******************/
 body {
-  background-color: #ECF0F1;
+  background-color: #FFFFFF;
   font-family: 'Gudea', sans-serif;
   text-align: center; 
 }
@@ -43,8 +43,27 @@ a:hover {
   padding-bottom: 50px;
 }
 
+h1 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+}
+
 
 /************** NAVBAR ******************/
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a {
+  color: #333333;
+}
+
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
   color: #E74C3C;
 }
@@ -52,12 +71,6 @@ a:hover {
 .navbar-default {
   background-color: #ffffff;
   border: none;
-}
-
-.navbar-inverse {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: #ECF0F1;
 }
 
 
@@ -69,24 +82,24 @@ a:hover {
 }
 
 .devindex .jumbotron {
-  background-color: #3498DB; 
-  color: #ECF0F1;
+  background-color: #333333; 
+  color: #ffffff;
   padding-top: 150px;
   padding-bottom: 100px;
   margin-bottom: 0px;
 }
 
 .designindex .jumbotron {
-  background-color: #E74C3C; 
-  color: #ECF0F1;
+  background-color: #333333; 
+  color: #ffffff;
   padding-top: 150px;
   padding-bottom: 100px;
   margin-bottom: 0px;
 }
 
 .detailindex .jumbotron {
-  background-color: #2C3E50; 
-  color: #ECF0F1;
+  background-color: #333333; 
+  color: #ffffff;
   padding-top: 150px;
   padding-bottom: 100px;
   margin-bottom: 0px;
@@ -97,7 +110,7 @@ a:hover {
 
 /*doesn't go full page width*/
 #new-section {
-  color: #4c4c4c;
+  color: #616161;
   padding-top: 100px;
   padding-bottom: 100px;
   max-width: 990px;
@@ -109,9 +122,10 @@ a:hover {
   background-color: #ECF0F1;
 }
 
+
 /*doesn't go full page width*/
 #new-section-gray {
-  color: #4c4c4c;
+  color: #616161;
   padding-top: 100px;
   padding-bottom: 100px;
   max-width: 990px;
@@ -123,9 +137,10 @@ a:hover {
   background-color: #f9f9f9;
 }
 
+
 /*doesn't go full page width*/
 #new-section-white {
-  color: #4c4c4c;
+  color: #616161;
   padding-top: 100px;
   padding-bottom: 100px;
   max-width: 990px;
@@ -138,11 +153,25 @@ a:hover {
 }
 
 
+/*doesn't go full page width*/
+#new-section-black {
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 75px;
+  max-width: 990px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.page-wrapper-black {
+  background-color: #333333;
+}
+
 /************** SKILLS PAGE ******************/
 
 /*doesn't go full page width*/
 #new-section-pattern {
-  color: #4c4c4c;
+  color: #616161;
   padding-top: 100px;
   padding-bottom: 100px;
   max-width: 990px;
@@ -162,6 +191,10 @@ a:hover {
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: #ECF0F1;
+}
+
+#skillspage h4 {
+  color: #333333;
 }
 
 
@@ -205,8 +238,6 @@ a:hover {
 
 /**************  MAIN INDEX ******************/
 #helloworld {
-/*  background: url(../maps.jpeg) no-repeat center center fixed; 
-*/ 
   background-color: #ffffff
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -251,7 +282,7 @@ a:hover {
 }
 
 #smartzip {
-  border-bottom: 2px solid #777777;
+  border-bottom: 1px solid #777777;
   margin-bottom: 50px;
 }
 
@@ -272,10 +303,19 @@ a:hover {
 
 
 /************** CONTACT PAGE ******************/
-#contactpage  > a  {
+.contactpage {
+  background-color: #333333;
+}
+
+.contactpage a  {
+  font-size: 18px;
   width: 5%;
   height: auto;
-  padding-bottom: 50px;
+}
+
+.contactpage h2 {
+  color: #ffffff !important;
+  font-size: 18px;
 }
 
 
