@@ -75,6 +75,10 @@ h3 {
   border: none;
 }
 
+.navbar-right {
+  margin-right: 0px;
+}
+
 
 /************** JUMBOTRON HEADER ******************/
 .mainindex .jumbotron {
@@ -92,6 +96,14 @@ h3 {
 }
 
 .designindex .jumbotron {
+  background-color: #333333; 
+  color: #ffffff;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  margin-bottom: 0px;
+}
+
+.writingindex .jumbotron {
   background-color: #333333; 
   color: #ffffff;
   padding-top: 150px;
@@ -224,10 +236,6 @@ h3 {
   color: #333333;
 }
 
-.casestudyparagraph {
-  margin: 0 auto;
-}
-
 .casestudytext .width-image {
   text-align: center;
 }
@@ -292,7 +300,6 @@ h3 {
 }
 
 
-
 /************** DESIGNER INDEX | PROJECTS ******************/
 #report > img {
   width: 50%;
@@ -301,7 +308,13 @@ h3 {
 }
 
 #mts  > img {
-  width: 100%;
+  width: 80%;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+#sfac  > img {
+  width: 80%;
   height: auto;
   padding-bottom: 50px;
 }
@@ -326,7 +339,7 @@ h3 {
 
 /************** TEXT BOX ON PICTURE  ******************/
 #blogdiv {
-   width: auto; 
+   max-width: 500px; 
    height: 250px;
 }
 
