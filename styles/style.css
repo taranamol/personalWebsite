@@ -222,6 +222,7 @@ h3 {
 }
 
 .casestudytext h4 {
+  text-transform: uppercase;
   color: #3498DB;
   margin-top: 15px;
 }
