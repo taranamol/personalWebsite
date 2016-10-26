@@ -14,11 +14,11 @@ p {
 }
 
 a {
-  color: #E74C3C;
+  color: #E21505;
 }
 
 a:hover {
-  color: #2980B9;
+  color: #6ABBC7;
   text-decoration: none;
 }
 
@@ -35,6 +35,14 @@ a:hover {
 
 .orange {
   color: #E74C3C;
+}
+
+.red {
+  color: #E21505;
+}
+
+.first-blue {
+  color: #3498DB;
 }
 
 .font-150 {
@@ -67,7 +75,20 @@ h3 {
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
-  color: #E74C3C;
+  color: #E21505;
+}
+
+.navbar-default .navbar-brand {
+  color: #333333;
+}
+
+.indexNav .navbar-default .navbar-brand {
+  color: #333333;
+  display: none;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #E21505;
 }
 
 .navbar-default {
@@ -218,12 +239,12 @@ h3 {
 }
 
 .casestudytext h3 {
-  color: #E74C3C;
+  color: #E21505;
 }
 
 .casestudytext h4 {
   text-transform: uppercase;
-  color: #3498DB;
+  color: #6ABBC7;
   margin-top: 15px;
 }
 
@@ -362,15 +383,15 @@ h3 {
 .overlayblogtext button {
   padding: 5px 10px 5px 10px;
   background-color: transparent;
-  border: 1px solid #E74C3C;
+  border: 1px solid #E21505;
   font-size: 18px;
-  color: #E74C3C;
+  color: #E21505;
   min-width: 100px;
 }
 
 .overlayblogtext button:hover {
-  background-color: #E74C3C;
-  border: 3px solid #E74C3C;
+  background-color: #E21505;
+  border: 3px solid #E21505;
   color: #ffffff;
 }
 
@@ -417,16 +438,16 @@ div.transbox h3 {
 div.transbox button {
   padding: 15px 30px 15px 30px;
   background-color: #ECF0F1;
-  border: 3px solid #E74C3C;
+  border: 3px solid #E21505;
   font-size: 18px;
   font-weight: bold;
-  color: #E74C3C;
+  color: #E21505;
   min-width: 250px;
 }
 
 div.transbox button:hover {
-  background-color: #E74C3C;
-  border: 3px solid #E74C3C;
+  background-color: #E21505;
+  border: 3px solid #E21505;
   color: #ECF0F1;
 }
 

@@ -10,7 +10,7 @@ $(document).ready(function(){
     '<span class="icon-bar"></span>'+
     '<span class="icon-bar"></span>'+
     '</button>'+
-    '<a class="navbar-brand" href="index.html">taranamol kaur</a>'+
+    '<a class="navbar-brand" id="floating-brand" href="index.html">taranamol kaur</a>'+
     '</div>'+
     '<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">' + 
     '<ul class="nav navbar-nav navbar-right">' + 
@@ -34,5 +34,15 @@ $(document).ready(function(){
     '</div>'+
     '</div>'+
     '</div>';
+
+
+$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 400) {
+    $('.indexNav .navbar-brand').fadeIn();
+  } else {
+    $('.indexNav .navbar-brand').fadeOut();
+  }
+});
 
 });
