@@ -222,6 +222,48 @@ h3 {
   background-size: cover;
 }
 
+#new-section-code {
+  color: #616161;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 990px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.page-wrapper-code {
+  background: url(../images/code.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#new-section-design {
+  color: #616161;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 990px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.page-wrapper-design {
+  background: url(../images/design.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.page-wrapper-impact {
+  background: url(../images_not_used/impact.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #skillspage {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -230,6 +272,26 @@ h3 {
 
 #skillspage h4 {
   color: #333333;
+}
+
+/*working on the front page work */
+.fullwidth {
+  min-height: 400px;
+  color: #FFFFFF;
+}
+
+#hovertext {
+  display: none;
+  position: relative;
+  color: #000000;
+}
+
+.fullwidth:hover {
+  opacity: .3;
+}
+
+.fullwidth:hover #hovertext {
+  display: block;
 }
 
 
@@ -305,6 +367,9 @@ h3 {
   width: 100%;
 }
 
+.designskills {
+    background: url(../images/index/pattern.jpeg) no-repeat center center; 
+}
 .skillsicon img {
   width: 100px;
   padding-bottom: 20px;
