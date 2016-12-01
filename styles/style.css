@@ -406,6 +406,13 @@ h3 {
   padding-bottom: 50px;
 }
 
+#moodcoach > img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+
 
 /************** CONTACT PAGE ******************/
 .contactpage {
