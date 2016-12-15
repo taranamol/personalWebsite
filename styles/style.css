@@ -1,7 +1,7 @@
 /************** OVERALL CSS ******************/
 body {
   background-color: #FFFFFF;
-  font-family: 'Gudea', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-align: center; 
 }
 
@@ -29,14 +29,6 @@ a:hover {
   border-left: 1px solid #333333;
 }
 
-.yellow {
-  color: #DEB216;
-}
-
-.orange {
-  color: #E74C3C;
-}
-
 .red {
   color: #E21505;
 }
@@ -45,31 +37,12 @@ a:hover {
   color: #3498DB;
 }
 
-.font-150 {
-  font-size: 150px;
-}
-
 .pb50 {
   padding-bottom: 50px;
 }
 
-h1 {
-/*  font-family: 'Open Sans', sans-serif;
-*/}
-
-h2 {
-  color: #333333;
-/*  font-family: 'Open Sans', sans-serif;
-*/}
-
-h3 {
-  color: #333333;
-/*  font-family: 'Open Sans', sans-serif;
-*/}
-
 
 /************** NAVBAR ******************/
-
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a {
   color: #333333;
 }
@@ -100,10 +73,15 @@ h3 {
   margin-right: 0px;
 }
 
+.highlighted {
+  font-weight: bold;
+  color: #000000;
+}
+
 
 /************** JUMBOTRON HEADER ******************/
 .mainindex .jumbotron {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
@@ -144,6 +122,9 @@ h3 {
 /************** PAGE WRAPPER ******************/
 
 /*doesn't go full page width*/
+.page-wrapper {
+  background-color: #ECF0F1;
+}
 #new-section {
   color: #616161;
   padding-top: 100px;
@@ -153,12 +134,11 @@ h3 {
   width: 100%;
 }
 
-.page-wrapper {
-  background-color: #ECF0F1;
+
+/*GRAY - doesn't go full page width*/
+.page-wrapper-gray {
+  background-color: #f9f9f9;
 }
-
-
-/*doesn't go full page width*/
 #new-section-gray {
   color: #616161;
   padding-top: 100px;
@@ -167,13 +147,20 @@ h3 {
   margin: 0 auto;
   width: 100%;
 }
-
-.page-wrapper-gray {
-  background-color: #f9f9f9;
+/*doesn't go full page width*/
+#new-section-gray-notp {
+  color: #616161;
+  padding-bottom: 100px;
+  max-width: 990px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 
-/*doesn't go full page width*/
+/*WHITE -doesn't go full page width*/
+.page-wrapper-white {
+  background-color: #ffffff;
+}
 #new-section-white {
   color: #616161;
   padding-top: 100px;
@@ -182,27 +169,67 @@ h3 {
   margin: 0 auto;
   width: 100%;
 }
-
-.page-wrapper-white {
-  background-color: #ffffff;
-}
-
-
 /*doesn't go full page width*/
-#new-section-black {
-  color: #ffffff;
-  padding-top: 50px;
-  padding-bottom: 75px;
+#new-section-white-notp {
+  color: #616161;
+  padding-bottom: 100px;
   max-width: 990px;
   margin: 0 auto;
   width: 100%;
 }
 
+
+/*BLACK -doesn't go full page width*/
 .page-wrapper-black {
   background-color: #333333;
 }
+#new-section-black {
+  color: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 990px;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 18px;
+}
+
+
+/*LIGHTBLACK -doesn't go full page width*/
+.page-wrapper-lightblack {
+  background-color: #616161;
+}
+#new-section-lightblack {
+  color: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 990px;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 18px;
+}
+
+
 
 /************** SKILLS PAGE ******************/
+
+/*LIGHTBLACK - SKILLS HEADER*/
+#new-section-lightblack h2 {
+  color: #ffffff;
+}
+
+.skillicons {
+  padding-bottom: 50px;
+}
+
+#skillspage {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #ECF0F1;
+}
+
+#skillspage h4 {
+  color: #333333;
+}
 
 /*doesn't go full page width*/
 #new-section-pattern {
@@ -256,68 +283,47 @@ h3 {
   background-size: cover;
 }
 
-.page-wrapper-impact {
-  background: url(../images_not_used/impact.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
-#skillspage {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: #ECF0F1;
-}
+/************** CASE STUDY INDEX ******************/
 
-#skillspage h4 {
+.casestudyindex #white {
+  background-color: #FFFFFF; 
+  padding-top: 100px;
+  padding-bottom: 0px;
   color: #333333;
+  margin-bottom: 0px;
 }
 
-/*working on the front page work */
-.fullwidth {
-  min-height: 400px;
-  color: #FFFFFF;
+.casestudyindex #headerpicture {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
-#hovertext {
-  display: none;
-  position: relative;
-  color: #000000;
+.casestudyindex #headerpicture img {
+  width: 100%;
 }
 
-.fullwidth:hover {
-  opacity: .3;
+.casestudyindex .jumbotron {
+  margin-bottom: 0px;
 }
 
-.fullwidth:hover #hovertext {
-  display: block;
-}
-
-
-/************** CASE STUDY TEXT ******************/
-.casestudytext {
-  text-align: left;
-}
-
-.casestudytext h3 {
-  color: #E21505;
-}
-
-.casestudytext h4 {
-  text-transform: uppercase;
+.casestudyindex #blueoffwhite {
+  background-color: #f9f9f9; 
   color: #6ABBC7;
-  margin-top: 15px;
 }
 
-.casestudytext p {
-  font-size: 16px;
-  color: #333333;
+.casestudyindex #blue{
+  background-color: #FFFFFF; 
+  color: #6ABBC7;
+  padding-top: 100px;
+  margin-bottom: 0px;
 }
 
-.casestudytext li {
-  font-size: 16px;
-  color: #333333;
+/************** CASE STUDY IMAGES ******************/
+
+.casestudytext .width-image img {
+  max-width:100%;
+  max-height:100%;
 }
 
 .casestudytext .width-image {
@@ -331,7 +337,62 @@ h3 {
 
 .casestudytext .height-image img {
   max-width:100%;
-  max-height:100%;
+  max-height:50%;
+}
+
+.casestudytext img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.casestudytext .portrait {
+    height: 800px;
+    width: 300px;
+}
+
+.casestudytext .landscape {
+    height: 300px;
+    width: 800px;
+}
+
+.casestudytext .square {
+    height: 500px;
+    width: 500px;
+}
+
+/************** CASE STUDY TEXT ******************/
+
+.casestudytext {
+  text-align: left;
+}
+
+.casestudytext h3 {
+  text-transform: lowercase;
+  color: #E21505;
+}
+
+.casestudytext h4 {
+  text-transform: uppercase;
+  color: #6ABBC7;
+  margin-top: 15px;
+}
+
+.casestudytext p {
+  font-size: 18px;
+  color: #333333;
+}
+
+.casestudytext .paragraph {
+  padding-bottom: 50px;
+}
+
+.casestudytext .paragraph  h3 {
+  padding-top: 50px;
+}
+
+.casestudytext li {
+  font-size: 18px;
+  color: #333333;
 }
 
 
@@ -344,8 +405,8 @@ h3 {
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 150px;
-  text-align: left;
-  color: #333333;
+  text-align: center;
+  color: #000000;
 }
 
 #helloworld .header {
@@ -354,25 +415,21 @@ h3 {
 }
 
 #helloworld .description {
-  max-width: 700px;
   color: #616161;
+ 
 }
 
 .tomiddle {
   padding: 10px 10px 10px 10px;
-  background-color: rgba(255,255,255,0.7);
   border-radius: 20px;
   max-width: 990px;
   margin: 0 auto;
   width: 100%;
 }
 
-.designskills {
-    background: url(../images/index/pattern.jpeg) no-repeat center center; 
-}
-.skillsicon img {
-  width: 100px;
-  padding-bottom: 20px;
+/*LIGHTBLACK - MATERIAL ICONS HEADER*/
+#new-section-lightblack .material-icons {
+  font-size: 60px;
 }
 
 
@@ -383,39 +440,38 @@ h3 {
   padding-bottom: 50px;
 }
 
-#smartzip {
-}
-
 
 /************** DESIGNER INDEX | PROJECTS ******************/
 #report > img {
-  width: 50%;
+  width: 60%;
   height: auto;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 #mts  > img {
   width: 80%;
   height: auto;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 #sfac  > img {
   width: 80%;
   height: auto;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 #moodcoach > img {
   width: 100%;
   height: 50%;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 
 
 /************** CONTACT PAGE ******************/
 .contactpage {
+  padding-top: 25px;
+  padding-bottom: 25px;
   background-color: #333333;
 }
 
@@ -472,56 +528,6 @@ h3 {
 }
 
 
-/************** NOT USED CSS | OVERLAY ******************/
-div.latestcasestudy {
-  background: url(../images/designer/mts/alejandra_closed_sort.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  right: 10px;
-  padding: 0px; 
-}
-
-div.latestwriting {
-  background: url(../images/writer/blogsfac.jpg) repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  left: 10px;
-  padding: 0px;
-}
-
-div.transbox {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: #ffffff;
-  opacity: 0.7;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
-}
-
-div.transbox h3 {
-  margin: 5%;
-  font-weight: bold;
-  color: #000000;
-}
-
-div.transbox button {
-  padding: 15px 30px 15px 30px;
-  background-color: #ECF0F1;
-  border: 3px solid #E21505;
-  font-size: 18px;
-  font-weight: bold;
-  color: #E21505;
-  min-width: 250px;
-}
-
-div.transbox button:hover {
-  background-color: #E21505;
-  border: 3px solid #E21505;
-  color: #ECF0F1;
-}
 
 
 
