@@ -34,7 +34,7 @@ a:hover {
 }
 
 .first-blue {
-  color: #3498DB;
+  color: #6ABBC7;
 }
 
 .pb50 {
@@ -74,7 +74,7 @@ a:hover {
 }
 
 .highlighted {
-  font-weight: bold;
+  font-weight: 700;
   color: #000000;
 }
 
@@ -213,12 +213,8 @@ a:hover {
 /************** SKILLS PAGE ******************/
 
 /*LIGHTBLACK - SKILLS HEADER*/
-#new-section-lightblack h2 {
+#new-section-black h2 {
   color: #ffffff;
-}
-
-.skillicons {
-  padding-bottom: 50px;
 }
 
 #skillspage {
@@ -312,7 +308,7 @@ a:hover {
   color: #6ABBC7;
 }
 
-.casestudyindex #blue{
+.casestudyindex #blue {
   background-color: #FFFFFF; 
   color: #6ABBC7;
   padding-top: 100px;
@@ -397,14 +393,15 @@ a:hover {
 
 
 /**************  MAIN INDEX ******************/
+
 #helloworld {
-  background-color: #ffffff
+  background-image: url('../bgopacity.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
   color: #000000;
 }
@@ -412,58 +409,63 @@ a:hover {
 #helloworld .header {
   font-size: 48px;
   letter-spacing: 10px;
+  font-weight: 600;
 }
 
 #helloworld .description {
-  color: #616161;
- 
+  color: #000000;
 }
 
 .tomiddle {
   padding: 10px 10px 10px 10px;
   border-radius: 20px;
-  max-width: 990px;
+  max-width: 600px;
   margin: 0 auto;
   width: 100%;
 }
 
-/*LIGHTBLACK - MATERIAL ICONS HEADER*/
-#new-section-lightblack .material-icons {
+/* DESIGN PROCESS */
+.material-icons {
   font-size: 60px;
 }
 
-
-/************** DEVELOPER INDEX | PROJECTS ******************/
-#projectspage > div > div > img {
-  width: 100%;
-  height: auto;
+.skillicons {
   padding-bottom: 50px;
 }
 
 
-/************** DESIGNER INDEX | PROJECTS ******************/
-#report > img {
-  width: 60%;
-  height: auto;
-  padding-bottom: 100px;
+/************** PROJECTS INDEX  ******************/
+.individualproject {
+  border-bottom: 5px solid #d3d3d3;
+  padding: 100px 15px 100px 15px;
 }
 
-#mts  > img {
-  width: 80%;
-  height: auto;
-  padding-bottom: 100px;
+.individualproject .iptitle {
+  font-size: 32px;
 }
 
-#sfac  > img {
-  width: 80%;
-  height: auto;
-  padding-bottom: 100px;
+.individualproject .iplink {
+  font-size: 24px;
+  padding-bottom: 20px;
 }
 
-#moodcoach > img {
+
+#projectsimage > img {
   width: 100%;
-  height: 50%;
-  padding-bottom: 100px;
+}
+
+#projectsimagephone > img {
+  height: auto;
+}
+
+#designprojectspage #projectstext p {
+  text-align: left;
+}
+
+/************** WRITING INDEX  ******************/
+
+.writingrow {
+  padding-bottom: 50px;
 }
 
 
@@ -489,32 +491,38 @@ a:hover {
 
 /************** TEXT BOX ON PICTURE  ******************/
 #blogdiv {
-   max-width: 500px; 
-   height: 250px;
+ /* max-width: 500px; 
+  height: 250px;*/
 }
 
 #blogdiv img {
-   height: auto;
-   width: 100%;
+  height: auto;
+  width: 100%;
 }
 
 .overlayblogtext {
   margin: 0 auto;
-  padding: 15px;
-  max-width: 400px;
-  bottom: 30px;
-  z-index: 1;
+  padding: 30px 30px 30px 30px;
+/*  max-width: 400px;*/
+/*  bottom: 30px;
+*/  z-index: 1;
   background: #ffffff;
-  position: relative;
+/*  position: relative;
+*/}
+
+.overlayblogtext p {
+  color: #616161;
 }
 
+
+/****** READ MORE BUTTON **********/
 .overlayblogtext button {
-  padding: 5px 10px 5px 10px;
+  padding: 10px 20px 10px 20px;
   background-color: transparent;
-  border: 1px solid #E21505;
+  border: 2px solid #E21505;
   font-size: 18px;
   color: #E21505;
-  min-width: 100px;
+  min-width: 200px;
 }
 
 .overlayblogtext button:hover {
@@ -525,6 +533,55 @@ a:hover {
 
 .overlayblogtext button:hover a {
   color: #ffffff;
+}
+
+/************** MAIN PAGE | TEXT BOX ON PICTURE  ******************/
+
+.mainindex #blogdiv img {
+  height: auto;
+  width: 100%;
+}
+
+.mainindex .overlayblogtext {
+  margin: 0 auto;
+  padding: 30px 30px 30px 30px;
+  z-index: 1;
+  background-color: #f9f9f9;
+}
+
+.mainindex .overlayblogtext h3 a {
+  color: #333333;
+  font-size: 24px;
+}
+
+.mainindex .overlayblogtext p {
+  color: #aaa;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+
+/****** READ MORE BUTTON **********/
+.mainindex .overlayblogtext button {
+  padding: 10px 20px 10px 20px;
+  background-color: transparent;
+  border: 2px solid #000000;
+  font-size: 18px;
+  color: #ffffff;
+  min-width: 200px;
+}
+
+.mainindex .overlayblogtext button:hover {
+  background-color: #333333;
+  border: 3px solid #333333;
+}
+
+.mainindex .overlayblogtext button:hover a {
+  color: #ffffff;
+}
+
+.mainindex .overlayblogtext button a {
+  color: #333333;
 }
 
 
