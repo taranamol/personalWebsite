@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: #6ABBC7;
+  color: #002E40;
   text-decoration: none;
 }
 
@@ -35,6 +35,10 @@ a:hover {
 
 .first-blue {
   color: #6ABBC7;
+}
+
+.dark-blue {
+  color: #002E40;
 }
 
 .pb50 {
@@ -100,6 +104,19 @@ a:hover {
   padding-top: 150px;
   padding-bottom: 100px;
   margin-bottom: 0px;
+}
+
+.designindex .jumbotron {
+  background-color: #ffffff; 
+  color: #333333;
+  padding-top: 150px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.designindex .jumbotron hr {
+  width: 20%;
+  border-top: 2px solid #333333;
 }
 
 .writingindex .jumbotron {
@@ -305,12 +322,12 @@ a:hover {
 
 .casestudyindex #blueoffwhite {
   background-color: #f9f9f9; 
-  color: #6ABBC7;
+  color: #002E40;
 }
 
 .casestudyindex #blue {
   background-color: #FFFFFF; 
-  color: #6ABBC7;
+  color: #002E40;
   padding-top: 100px;
   margin-bottom: 0px;
 }
@@ -369,8 +386,9 @@ a:hover {
 
 .casestudytext h4 {
   text-transform: uppercase;
-  color: #6ABBC7;
+  color: #002E40;
   margin-top: 15px;
+  font-weight: 500;
 }
 
 .casestudytext p {
