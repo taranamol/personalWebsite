@@ -413,25 +413,39 @@ a:hover {
 /**************  MAIN INDEX ******************/
 
 #helloworld {
-  background-image: url('../bgopacity.png');
+  /*background-image: url('../bgopacity.png');*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   padding-top: 200px;
-  padding-bottom: 200px;
-  text-align: center;
+  /*padding-bottom: 200px*/;
   color: #000000;
 }
 
 #helloworld .header {
   font-size: 48px;
-  letter-spacing: 10px;
+  letter-spacing: 3px;
   font-weight: 600;
 }
 
 #helloworld .description {
   color: #000000;
+}
+
+#helloworld .links {
+  color: #FFBD2B;
+  font-size: 18px;
+}
+
+#helloworld .links a {
+  color: #FFBD2B;
+  font-size: 18px;
+}
+
+#helloworld .links a:hover {
+  color: #FFBD2B;
+  font-size: 18px;
 }
 
 .tomiddle {
@@ -440,6 +454,15 @@ a:hover {
   max-width: 600px;
   margin: 0 auto;
   width: 100%;
+}
+
+.toleft {
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px;
+  max-width: 600px;
+  margin: 60px;
+  width: 100%;
+  text-align: left;
 }
 
 /* DESIGN PROCESS */
